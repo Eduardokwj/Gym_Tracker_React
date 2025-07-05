@@ -50,6 +50,7 @@ src/
 ├── App.jsx # Rotas principais
 
 ├── index.jsx # Entrada da aplicação
+
 └── index.css # Estilos globais
 
 
@@ -60,14 +61,10 @@ src/
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/gym-tracker.git
+git clone https://github.com/Eduardokwj/Gym_Tracker_React.git
 ```
 
 2. Acesse o diretório
-
-```bash
-cd gym-tracker
-```
 
 3. Instale as dependências
 
