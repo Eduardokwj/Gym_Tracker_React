@@ -1,0 +1,38 @@
+.register-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1E1E1E;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  color: #E0E0E0;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Lista dos exercícios */
+.exercise-list {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.exercise-list li {
+  background-color: #292929;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 0.95rem;
+  border-left: 4px solid #3A506B;
+}

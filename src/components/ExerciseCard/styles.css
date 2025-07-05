@@ -1,0 +1,91 @@
+.exercise-card {
+  background-color: #1E2A38; /* fundo levemente diferente do fundo geral */
+  border: 1px solid #3A506B; /* tom azulado elegante */
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px 0;
+  color: #E0E0E0;
+  box-shadow: 0 2px 8px rgba(58, 80, 107, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exercise-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(58, 80, 107, 0.4);
+}
+
+.exercise-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.exercise-card p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.card-buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete,
+.btn-save,
+.btn-cancel {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.btn-edit {
+  background-color: #3A506B;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #324862;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #b02a37;
+}
+
+.btn-save {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: #218838;
+}
+
+.btn-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #5a6268;
+}
+
+input {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 8px;
+}

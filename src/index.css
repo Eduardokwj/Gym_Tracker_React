@@ -1,0 +1,15 @@
+/* index.css */
+body, html, #root {
+  background-color: #121212;
+  color: #E0E0E0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

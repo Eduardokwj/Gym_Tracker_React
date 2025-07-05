@@ -1,0 +1,52 @@
+.exercises-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+.exercises-page h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.exercise-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-size: 1rem;
+  display: block;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  font-size: 1rem;
+  display: block;
+}

@@ -1,0 +1,24 @@
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-banner {
+  width: 100%;
+  max-width: 600px; /* ou 500px, ajuste conforme quiser */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* centraliza e adiciona espaço abaixo */
+  border-radius: 8px;
+}
+
+.home-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+}

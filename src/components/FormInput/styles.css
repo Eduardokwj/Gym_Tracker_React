@@ -1,0 +1,25 @@
+.form-input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input-group label {
+  margin-bottom: 5px;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.form-input-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #121212;
+  color: #E0E0E0;
+  font-size: 1rem;
+}
+
+.form-input-group input:focus {
+  outline: none;
+  border-color: #3A506B;
+  background-color: #181818;
+}
