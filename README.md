@@ -38,11 +38,17 @@ O **Gym Tracker** resolve o problema da desorganização na rotina de treinos, p
 ## 🧭 Estrutura do Projeto
 
 src/
+
 ├── assets/ # Imagens
+
 ├── components/ # Componentes reutilizáveis (Header, Button, Input, Card, etc)
+
 ├── contexts/ # Contexto global do usuário
+
 ├── pages/ # Páginas: Home, Exercises, Register, UserRegister, NotFound
+
 ├── App.jsx # Rotas principais
+
 ├── index.jsx # Entrada da aplicação
 └── index.css # Estilos globais
 
