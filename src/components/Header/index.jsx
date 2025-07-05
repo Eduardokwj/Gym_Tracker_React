@@ -5,7 +5,7 @@ import "./styles.css";
 import Avatar from "../../assets/Avatar.png";
 
 export default function Header() {
-  const { user } = useContext(UserContext); // ← agora puxamos do contexto
+  const { user } = useContext(UserContext); 
 
   const getFirstName = (name) => {
     return name ? name.split(" ")[0] : "";
