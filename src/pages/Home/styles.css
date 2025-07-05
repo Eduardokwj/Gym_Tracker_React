@@ -5,10 +5,10 @@
 
 .home-banner {
   width: 100%;
-  max-width: 600px; /* ou 500px, ajuste conforme quiser */
+  max-width: 600px; 
   height: auto;
   display: block;
-  margin: 0 auto 20px auto; /* centraliza e adiciona espaço abaixo */
+  margin: 0 auto 20px auto; 
   border-radius: 8px;
 }
 
